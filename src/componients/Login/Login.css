@@ -1,0 +1,14 @@
+.animailLogin{
+    animation: slidein linear 1s alternate;
+}
+
+@keyframes slidein {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      display: none;
+    }
+}
