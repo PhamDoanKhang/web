@@ -5,7 +5,7 @@ import About from "../page/About";
 import pathName from "../routers/path"
 import Contact from "../page/Contact";
 import HomePage from "../../src/page/Home/home"
-// import Rea
+import Knowledge from "../page/Knowledge";
 function HandelRouter() {
     return ( 
         <Routes>
@@ -13,6 +13,7 @@ function HandelRouter() {
                 <Route index path="/" element={<HomePage />} />
                 <Route path={pathName.about} element={<About />} />
                 <Route path={pathName.contact} element={<Contact />} />
+                <Route path={pathName.knowledge} element={<Knowledge />} />
             </Route>
         </Routes>
      );

@@ -5,3 +5,13 @@
 .color-menu{
     color: white !important;
 }
+.bg_image1{
+    background-image: url(http://mauweb.monamedia.net/huucomientrung/wp-content/uploads/2018/05/Rublevoy_Steemit.png);
+    
+}
+.bg-111{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-image: url(../../assets/images/tree.jpg);
+}

@@ -24,9 +24,12 @@ function Contact() {
             <PageHeader menuItems={"Liên hệ"} />
             <div className="px-36 py-10 box-border">
                 <div className="flex justify-between">
-                    <div className="w-1/2 px-2 box-border">
-                        <iframe>
-
+                    <div className="w-1/2 px-4 box-border">
+                    <iframe 
+                        className="w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3924.089060186321!2d105.30157651479769!3d10.414501192567746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDI0JzUyLjIiTiAxMDXCsDE4JzEzLjYiRQ!5e0!3m2!1svi!2s!4v1680443047356!5m2!1svi!2s" 
+                        allowfullscreen=""                         loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
                     <div className="w-1/2 px-0 box-border">

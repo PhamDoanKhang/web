@@ -1,6 +1,7 @@
 const pathName = {
     "home" : "/",
     "about" : "about",
-    "contact": "contact"
+    "contact": "contact",
+    "knowledge": "knowledge"
 }
 export default pathName
